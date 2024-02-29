@@ -1,130 +1,148 @@
-<table>
-    <tbody>
-      <tr>
-        <td valign="top">
-            <ul>
-                <li><a href="/Kanbas/Account/Profile/screen.html">
-                    Account</a></li>
-                <li>
-                 <a href="/Kanbas/Dashboard/screen.html">Dashboard</a>
-                </li>
-                <li>
-                 <a href="/Kanbas/Courses/Home/screen.html">Courses</a>
-                </li>
-                <li>
-                 <a href="/Kanbas/Calendar/index.html">Calendar</a></li>
-                <li><a href="/Kanbas/Inbox/index.html">Inbox</a></li>
-                <li><a href="/Kanbas/History/index.html">History</a></li>
-                <li><a href="/Kanbas/Studio/index.html">Studio</a></li>
-                <li><a href="/Kanbas/Commons/index.html">Commons</a></li>
-                <li><a href="/Kanbas/Help/index.html">Help</a></li>
-               </ul>
-            
-        </td>
-        <td valign="top">
-            <ul>
-                <li>
-                  <a href="/Kanbas/Courses/Home/screen.html">
-                    Home</a></li>
-                <li><a href="/Kanbas/Courses/Modules/screen.html">
-                    Modules</a></li>
-                <li><a href="/Kanbas/Courses/Piazza/index.html">
-                    Piazza</a></li>
-                <li><a href="/Kanbas/Courses/Grades/screen.html">
-                    Grades</a></li>
-                <li><a href="/Kanbas/Courses/Assignments/screen.html">
-                    Assignments</a></li>
-                <li><a href="/Kanbas/Courses/Quizzes/screen.html">
-                    Quizzes</a></li>
-                <li><a href="/Kanbas/Courses/People/screen.html">
-                    People</a></li>
-                <li><a href="/Kanbas/Courses/PanoptoVideo/screen.html">
-                    Panopto Video</a></li>
-                <li><a href="/Kanbas/Courses/Discussions/screen.html">
-                    Discussions</a></li>
-                <li><a href="/Kanbas/Courses/Announcements/screen.html">
-                     Announcements</a></li>
-                <li><a href="/Kanbas/Courses/Pages/screen.html">
-                    Pages</a></li>
-                <li><a href="/Kanbas/Courses/Files/screen.html">
-                    Files</a></li>
-                <li><a href="/Kanbas/Courses/Rubrics/screen.html">
-                    Rubrics</a></li>
-                <li><a href="/Kanbas/Courses/Outcomes/screen.html">
-                    Outcomes</a></li>
-                <li><a href="/Kanbas/Courses/Collaborations/screen.html">
-                    Collaborations</a></li>
-                <li><a href="/Kanbas/Courses/Syllabus/screen.html">
-                    Syllabus</a></li>
-                <li><a href="/Kanbas/Courses/Settings/screen.html">
-                    Settings</a></li>
-              </ul>
-              
-        </td>
-        <td valign="top">
-            <input type="text" placeholder = "Search For Assignments"> </br>
-<button type="button">Group</button>
-<button type="button">Assignment</button>
-<select>
-    <option value="Configure">Edit Assignment Dates</option>
-</select>
-<h3>Assignments</h3> 
-<select>
-    <option>Edit</option>
-    <option>Speed Grader</option>
-    <option>Duplicate</option>
-    <option>Delete</option>
-    <option>Move To...</option>
-    <option>Send To...</option>
-    <option>Copy To...</option>
-    <option>Share to Commons</option>
-</select>
-<ul>
-    <li> Placeholder </li>
-</ul>
-<h3>Quizzes</h3>
-<select>
-    <option>Edit</option>
-    <option>Speed Grader</option>
-    <option>Duplicate</option>
-    <option>Delete</option>
-    <option>Move To...</option>
-    <option>Send To...</option>
-    <option>Copy To...</option>
-    <option>Share to Commons</option>
-</select>
-<ul>
-    <li> <a href = "/Kanbas/Courses/Assignments/Edit/screen.html"> Placeholder </a>  </li>
-</ul>
-<h3>Exams</h3>
-<select>
-    <option>Edit</option>
-    <option>Speed Grader</option>
-    <option>Duplicate</option>
-    <option>Delete</option>
-    <option>Move To...</option>
-    <option>Send To...</option>
-    <option>Copy To...</option>
-    <option>Share to Commons</option>
-</select>
-<ul>
-    <li> <a href = "/Kanbas/Courses/Assignments/Edit/screen.html"> Placeholder </a> </li>
-</ul>
-<h3>Project</h3>
-<select>
-    <option>Edit</option>
-    <option>Speed Grader</option>
-    <option>Duplicate</option>
-    <option>Delete</option>
-    <option>Move To...</option>
-    <option>Send To...</option>
-    <option>Copy To...</option>
-    <option>Share to Commons</option>
-</select>
-<ul>
-    <li> <a href = "/Kanbas/Courses/Assignments/Edit/screen.html"> Placeholder </a>  </li>
-</ul>
-        </td>
-    </tr>
-    </tbody>
-</table>
+<html>
+
+<head>
+  <link rel="stylesheet" href="/libs/bootstrap/bootstrap.min.css" />
+  <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="/Kanbas/styles.css" />
+  <link rel="stylesheet" href="/Kanbas/Navigation/index.css" />
+  <link rel="stylesheet" href="/Kanbas/Courses/Navigation/index.css" />
+  <link rel="stylesheet" href="/Kanbas/Courses/Home/index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+  <!-- Implement links to Kanbas and Course Navigation -->
+  <div class="row">
+    <div class="d-flex">
+        <div class ="d-none d-md-block">
+        <ul class="wd-kanbas-navigation ">
+          <li>
+            <div class="wd-padded"> <i class="fas fa-user-circle fa-2x" style="color: white"></i></div>
+            <a href="/Kanbas/Account/Navigation/index.html"> Account</a>
+          </li>
+          <li>
+            <div class="wd-padded"> <i class="fa fa-tachometer-alt fa-2x" style="color:  rgb(239, 24, 24)"></i></div>
+            <a href="/Kanbas/Dashboard/screen.html">Dashboard</a>
+          </li>
+          <li li class="wd-active">
+            <div class="wd-padded"> <i class="fas fa-book fa-2x" style="color:  rgb(239, 24, 24)"></i></div>
+            <a href=/Kanbas/Courses/Home/screen.html>Courses</a>
+          </li>
+          <li>
+            <div class="wd-padded"> <i class="fa fa-calendar fa-2x" style="color:  rgb(239, 24, 24)"></i> </div>
+            <a href=#>Calendar</a>
+          </li>
+          <li>
+            <div class="wd-padded"> <i class="fas fa-envelope-open-text fa-2x" style="color:  rgb(239, 24, 24)"></i>
+            </div>
+            <a href=#>Inbox</a>
+          </li>
+          <li>
+            <div class="wd-padded"> <i class="far fa-clock fa-2x" style="color:  rgb(239, 24, 24)"></i>
+              <a href=#>History</a>
+            </div>
+          </li>
+          <li>
+            <div class="wd-padded"> <i class="far fa-play-circle fa-2x" style="color:  rgb(239, 24, 24)"></i></div>
+            <a href=#>Studio</a>
+          </li>
+          <li>
+            <div class="wd-padded"> <i class="fas fa-arrow-circle-right fa-2x" style="color:  rgb(239, 24, 24)"></i>
+            </div>
+            <a href=#>Commons</a>
+          </li>
+          <li>
+            <div class="wd-padded"> <i class="far fa-question-circle fa-2x" style="color: rgb(239, 24, 24)"> </i> </div>
+            <div><a href=#>Help</a></div>
+          </li>
+        </ul>
+      </div>
+      <div class="d-none d-md-block">
+        <ul class="wd-navigation">
+
+          <ul class="wd-navigation">
+            <li>
+              <a href="/Kanbas/Courses/Home/screen.html"> Home</a>
+            </li>
+            <li>
+              <a href="/Kanbas/Courses/Modules/screen.html"> Modules</a>
+            </li>
+            <li><a href="/Kanbas/Courses/Piazza/index.html"> Piazza</a></li>
+            <li><a href="#">Zoom</a></li>
+            <li li class="wd-active">
+              <a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a>
+            </li>
+            <li><a href="#">Quizzes</a></li>
+            <li><a href="/Kanbas/Courses/Grades/screen.html"> Grades</a></li>
+            <li><a href="#">People</a></li>
+          </ul>
+        </ul>
+      </div>
+      <div class="flex-fill">
+    </td>
+    <td valign="top">
+        <input type="text" placeholder="Search For Assignments"> </br>
+        <button type="button">Group</button>
+        <button type="button">Assignment</button>
+        <select>
+            <option value="Configure">Edit Assignment Dates</option>
+        </select>
+        <h3>Assignments</h3>
+        <select>
+            <option>Edit</option>
+            <option>Speed Grader</option>
+            <option>Duplicate</option>
+            <option>Delete</option>
+            <option>Move To...</option>
+            <option>Send To...</option>
+            <option>Copy To...</option>
+            <option>Share to Commons</option>
+        </select>
+        <ul>
+            <li> Placeholder </li>
+        </ul>
+        <h3>Quizzes</h3>
+        <select>
+            <option>Edit</option>
+            <option>Speed Grader</option>
+            <option>Duplicate</option>
+            <option>Delete</option>
+            <option>Move To...</option>
+            <option>Send To...</option>
+            <option>Copy To...</option>
+            <option>Share to Commons</option>
+        </select>
+        <ul>
+            <li> <a href="/Kanbas/Courses/Assignments/Edit/screen.html"> Placeholder </a> </li>
+        </ul>
+        <h3>Exams</h3>
+        <select>
+            <option>Edit</option>
+            <option>Speed Grader</option>
+            <option>Duplicate</option>
+            <option>Delete</option>
+            <option>Move To...</option>
+            <option>Send To...</option>
+            <option>Copy To...</option>
+            <option>Share to Commons</option>
+        </select>
+        <ul>
+            <li> <a href="/Kanbas/Courses/Assignments/Edit/screen.html"> Placeholder </a> </li>
+        </ul>
+        <h3>Project</h3>
+        <select>
+            <option>Edit</option>
+            <option>Speed Grader</option>
+            <option>Duplicate</option>
+            <option>Delete</option>
+            <option>Move To...</option>
+            <option>Send To...</option>
+            <option>Copy To...</option>
+            <option>Share to Commons</option>
+        </select>
+        <ul>
+            <li> <a href="/Kanbas/Courses/Assignments/Edit/screen.html"> Placeholder </a> </li>
+        </ul>
+      </div>
+</body>
+</html>

@@ -6,7 +6,7 @@ function Dashboard() {
     <div className="p-4">
       <h1>Dashboard</h1>
       <hr />
-      <h2>Published Courses (12)</h2>
+      <h2>Published Courses (3)</h2>
       <hr />
       <div className="row">
         <div className="row row-cols-1 row-cols-md-5 g-4">
@@ -14,7 +14,7 @@ function Dashboard() {
             <div className="col" style={{ width: "300px" }}>
               <div className="card">
                 <img
-                  src="/images/reactjs.jpg"
+                  src="/images/reactjs.png"
                   className="card-img-top"
                   style={{ maxHeight: "150px" }}
                 />
@@ -41,9 +41,7 @@ function Dashboard() {
           ))}
         </div>
       </div>
-      <pre>
-        <code>{JSON.stringify(courses, null, 2)}</code>
-      </pre>
+
     </div>
   );
 }

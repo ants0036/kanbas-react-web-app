@@ -30,3 +30,7 @@
 .wd-modules > li {
   margin-bottom: 20px;
 }
+
+.module {
+  background-color: lightgray;
+}
